@@ -1,6 +1,6 @@
 """
 XploreSecurity
-Let's Play In Hacking, Security & Development
+IT Security Development Research
 Coded XylaufyyyId
 """
 import requests
@@ -21,7 +21,7 @@ def sqli_(url):
     Waktu_ = str(Waktu_)
     Waktu_ = Waktu_.split(".")
     Waktu_ = Waktu_[0]
-    if int(Waktu_) >= 2:
+    if int(Waktu_) >= 3:
         print("Blind SQL Injection Time Based Terdeteksi!")
         print("Payload:",'1-SLEEP(3)')
         print("PoC:",urlb)
@@ -82,14 +82,14 @@ def waf_(url):
 
     print("""
     XploreSecurity
-    Let's Play In Hacking, Security & Development
+    IT Security Development Research
     Coded XylaufyyyId
 Target: {}
     """.format(url))
 def help():
     print("""
     XploreSecurity
-    Let's Play In Hacking, Security & Development
+    IT Security Development Research
     Coded XylaufyyyId
     
     python xploresecurity-sqli.py http://example.id/page.php?id=value
