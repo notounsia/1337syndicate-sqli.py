@@ -1,5 +1,5 @@
 """
-XploreSecurity
+1337Syndicate
 IT Security Development Research
 Coded XylaufyyyId
 """
@@ -9,7 +9,7 @@ import time
 
 def sqli_(url):
     print("\nMemulai Penetration Testing!")
-    print("\nxploresecurity-sqli")
+    print("\n1337syndicate-sqli")
     urlt = url.split("=")
     urlt = urlt[0] + '='
     urlb = urlt + '1-SLEEP(3)'
@@ -81,18 +81,18 @@ def waf_(url):
 
 
     print("""
-    XploreSecurity
+    1337Syndicate
     IT Security Development Research
     Coded XylaufyyyId
 Target: {}
     """.format(url))
 def help():
     print("""
-    XploreSecurity
+    1337Syndicate
     IT Security Development Research
     Coded XylaufyyyId
     
-    python xploresecurity-sqli.py http://example.id/page.php?id=value
+    python 1337syndicate-sqli.py http://example.id/page.php?id=value
     """)
     exit()
 
